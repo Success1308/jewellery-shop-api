@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jewelry Shop API</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        padding: 20px;
+        background-color: #111;
+        color: #fff;
+        margin: 0;
+      }
+      .container {
+        max-width: 800px;
+        margin: auto;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+      }
+      h1,
+      h2 {
+        text-align: center;
+        color: #ffcc00;
+      }
+      .instruction {
+        margin-bottom: 20px;
+      }
+      .endpoint {
+        margin-bottom: 30px;
+        padding: 15px;
+        border: 1px solid #666;
+        border-radius: 4px;
+        background-color: #333;
+      }
+      .endpoint h3 {
+        margin-top: 0;
+        color: #ffcc00;
+      }
+      .endpoint p {
+        margin-bottom: 10px;
+        color: #ccc;
+      }
+      .endpoint a {
+        color: #ffcc00;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .jewelry-img {
+        display: block;
+        margin: auto;
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+      }
+      pre {
+        background-color: #222;
+        padding: 10px;
+        border-radius: 4px;
+        overflow-x: auto;
+      }
+      code {
+        color: #ffcc00;
+      }
+      p {
+        color: #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="./images/jewelry-shop.jpg" />
+      alt="Jewelry Shop" class="jewelry-img" />
+      <h1>Welcome to the Jewelry Shop API</h1>
+
+      <div class="instruction">
+        <h2>Overview:</h2>
+        <p>
+          This API provides information about our jewelry collection, including
+          items for men and women.
+        </p>
+      </div>
+
+      <div class="endpoint">
+        <h3>Get All Jewelry Items</h3>
+        <p>Get a list of all jewelry items available in the shop.</p>
+        <p>Endpoint: <a href="/jewelry">/jewelry</a></p>
+      </div>
+
+      <div class="endpoint">
+        <h3>Get Jewelry by ID</h3>
+        <p>Get information about a specific jewelry item by its ID.</p>
+        <p>
+          Endpoint: <a href="/jewelry/1">/jewelry/{id}</a> (replace `{id}` with
+          a number)
+        </p>
+      </div>
+
+      <div class="endpoint">
+        <h3>Example Usage:</h3>
+        <p>To get all jewelry items:</p>
+        <pre><code>GET /jewelry</code></pre>
+        <p>To get jewelry with ID 1:</p>
+        <pre><code>GET /jewelry/1</code></pre>
+      </div>
+
+      <p style="text-align: center">
+        Explore our collection and find your perfect piece!
+      </p>
+    </div>
+  </body>
+</html>
