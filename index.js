@@ -389,7 +389,7 @@ const jewellery = [
     category: "Women",
     price: 130.0,
     color: "Rose Gold",
-    img: "https://example.com/images/womens_rose_gold_cuff.jpg",
+    img: "/public/images/4200.jpeg",
     details: "A modern rose gold cuff that adds flair.",
   },
   {
@@ -398,7 +398,7 @@ const jewellery = [
     category: "Men",
     price: 65.0,
     color: "Gold",
-    img: "https://example.com/images/mens_gold_tie_bar.jpg",
+    img: "/public/images/4300.jpeg",
     details: "A classic gold tie bar for a polished look.",
   },
   {
@@ -407,7 +407,7 @@ const jewellery = [
     category: "Women",
     price: 115.0,
     color: "Silver",
-    img: "https://example.com/images/womens_silver_choker.jpg",
+    img: "/public/images/4400.jpeg",
     details: "A fashionable silver choker that enhances any outfit.",
   },
   {
@@ -416,7 +416,7 @@ const jewellery = [
     category: "Men",
     price: 170.0,
     color: "Rose Gold",
-    img: "https://example.com/images/mens_rose_gold_ring.jpg",
+    img: "/public/images/4500.jpeg",
     details: "A striking rose gold ring that stands out.",
   },
   {
@@ -425,7 +425,7 @@ const jewellery = [
     category: "Women",
     price: 130.0,
     color: "Gold",
-    img: "https://example.com/images/womens_gold_hoops.jpg",
+    img: "/public/images/4600.jpeg",
     details: "Stylish gold hoop earrings for a bold look.",
   },
   {
@@ -434,7 +434,7 @@ const jewellery = [
     category: "Men",
     price: 145.0,
     color: "Silver",
-    img: "https://example.com/images/mens_silver_chain_2.jpg",
+    img: "/public/images/4700.jpeg",
     details: "A modern silver chain that adds flair.",
   },
   {
@@ -443,7 +443,7 @@ const jewellery = [
     category: "Women",
     price: 90.0,
     color: "Rose Gold",
-    img: "https://example.com/images/womens_rose_gold_ear_cuffs.jpg",
+    img: "/public/images/4800.jpeg",
     details: "Charming rose gold ear cuffs that enhance your look.",
   },
   {
@@ -452,7 +452,7 @@ const jewellery = [
     category: "Men",
     price: 330.0,
     color: "Gold",
-    img: "https://example.com/images/mens_gold_watch_2.jpg",
+    img: "/public/images/4900.jpeg",
     details: "A luxurious gold watch for the modern gentleman.",
   },
   {
@@ -461,17 +461,15 @@ const jewellery = [
     category: "Women",
     price: 115.0,
     color: "Silver",
-    img: "https://example.com/images/womens_silver_bracelet_2.jpg",
+    img: "/public/images/5000.jpeg",
     details: "A beautiful silver bracelet perfect for layering.",
   },
 ];
 
-// Endpoint to get all jewellery
 app.get("/jewellery", (req, res) => {
   res.json(jewellery);
 });
 
-// Endpoint to get jewellery by ID
 app.get("/jewellery/:id", (req, res) => {
   const jewelleryId = parseInt(req.params.id, 10);
   const item = jewellery.find((jewel) => jewel.id === jewelleryId);
