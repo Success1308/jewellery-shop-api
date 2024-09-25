@@ -19,7 +19,7 @@ const jewellery = [
     category: "Men",
     price: 150.0,
     color: "Silver",
-    img: "",
+    img: "https://github.com/Success1308/jewellery-shop-api/blob/main/public/images/100.jpeg?raw=true",
     details: "A stylish silver chain that adds elegance to any outfit.",
   },
 
