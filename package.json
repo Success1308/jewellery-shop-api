@@ -1,16 +1,23 @@
 {
   "name": "jewellery-shop-api",
   "version": "1.0.0",
+  "description": "An API for a jewellery shop that provides details about various jewellery items, including men's and women's collections.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "jewellery",
+    "shop",
+    "api",
+    "express",
+    "node"
+  ],
+  "author": "Your Name",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "express": "^4.17.1",
     "cors": "^2.8.5"
-  }
+  },
+  "type": "module"
 }
