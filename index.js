@@ -209,7 +209,7 @@ const jewellery = [
     category: "Women",
     price: 220.0,
     color: "Gold",
-    img: "https://example.com/images/womens_gold_necklace.jpg",
+    img: "/public/images/2200.jpeg",
     details: "An exquisite gold necklace that captivates attention.",
   },
   {
@@ -218,7 +218,7 @@ const jewellery = [
     category: "Men",
     price: 310.0,
     color: "Silver",
-    img: "https://example.com/images/mens_silver_watch.jpg",
+    img: "/public/images/2300.jpeg",
     details: "A classic silver watch that combines functionality with style.",
   },
   {
@@ -227,7 +227,7 @@ const jewellery = [
     category: "Women",
     price: 105.0,
     color: "Rose Gold",
-    img: "https://example.com/images/womens_rose_gold_earrings.jpg",
+    img: "/public/images/2400.jpeg",
     details: "Charming rose gold earrings that add elegance to your outfit.",
   },
   {
@@ -236,7 +236,7 @@ const jewellery = [
     category: "Men",
     price: 175.0,
     color: "Gold",
-    img: "https://example.com/images/mens_gold_pendant.jpg",
+    img: "/public/images/2500.jpeg",
     details: "A striking gold pendant that makes a statement.",
   },
   {
@@ -245,7 +245,7 @@ const jewellery = [
     category: "Women",
     price: 65.0,
     color: "Silver",
-    img: "https://example.com/images/womens_silver_brooch.jpg",
+    img: "/public/images/2600.jpeg",
     details: "A beautiful silver brooch to add flair to your outfit.",
   },
   {
@@ -254,7 +254,7 @@ const jewellery = [
     category: "Men",
     price: 55.0,
     color: "Rose Gold",
-    img: "https://example.com/images/mens_rose_gold_tie_clip.jpg",
+    img: "/public/images/2700.jpeg",
     details: "A stylish rose gold tie clip to enhance your look.",
   },
   {
@@ -263,7 +263,7 @@ const jewellery = [
     category: "Women",
     price: 70.0,
     color: "Gold",
-    img: "https://example.com/images/womens_gold_brooch.jpg",
+    img: "/public/images/2800.jpeg",
     details: "A delicate gold brooch for a vintage touch.",
   },
   {
@@ -272,7 +272,7 @@ const jewellery = [
     category: "Men",
     price: 145.0,
     color: "Silver",
-    img: "https://example.com/images/mens_silver_pendant.jpg",
+    img: "/public/images/2900.jpeg",
     details: "An elegant silver pendant that enhances your style.",
   },
   {
@@ -281,7 +281,7 @@ const jewellery = [
     category: "Women",
     price: 270.0,
     color: "Rose Gold",
-    img: "https://example.com/images/womens_rose_gold_watch.jpg",
+    img: "/public/images/3000.jpeg",
     details: "A chic rose gold watch that complements any outfit.",
   },
   {
@@ -290,7 +290,7 @@ const jewellery = [
     category: "Men",
     price: 220.0,
     color: "Gold",
-    img: "https://example.com/images/mens_gold_ring_2.jpg",
+    img: "/public/images/3100.jpeg",
     details: "A stylish gold ring that stands out.",
   },
   {
@@ -299,7 +299,7 @@ const jewellery = [
     category: "Women",
     price: 80.0,
     color: "Silver",
-    img: "https://example.com/images/womens_silver_anklet.jpg",
+    img: "/public/images/3200.jpeg",
     details: "A lovely silver anklet that enhances your elegance.",
   },
   {
@@ -308,7 +308,7 @@ const jewellery = [
     category: "Men",
     price: 180.0,
     color: "Rose Gold",
-    img: "https://example.com/images/mens_rose_gold_bracelet_2.jpg",
+    img: "/public/images/3300.jpeg",
     details: "A modern rose gold bracelet that suits any style.",
   },
   {
@@ -317,7 +317,7 @@ const jewellery = [
     category: "Women",
     price: 130.0,
     color: "Gold",
-    img: "https://example.com/images/womens_gold_earrings_2.jpg",
+    img: "/public/images/3400.jpeg",
     details: "Stylish gold earrings that sparkle with elegance.",
   },
   {
@@ -326,7 +326,7 @@ const jewellery = [
     category: "Men",
     price: 120.0,
     color: "Silver",
-    img: "https://example.com/images/mens_silver_cufflinks.jpg",
+    img: "/public/images/3500.jpeg",
     details: "Classic silver cufflinks that elevate any outfit.",
   },
   {
@@ -335,7 +335,7 @@ const jewellery = [
     category: "Women",
     price: 190.0,
     color: "Rose Gold",
-    img: "https://example.com/images/womens_rose_gold_necklace_2.jpg",
+    img: "/public/images/3600.jpeg",
     details: "A stunning rose gold necklace for every occasion.",
   },
   {
@@ -344,7 +344,7 @@ const jewellery = [
     category: "Men",
     price: 250.0,
     color: "Gold",
-    img: "https://example.com/images/mens_gold_bracelet_2.jpg",
+    img: "/public/images/3700.jpeg",
     details: "A luxurious gold bracelet that showcases elegance.",
   },
   {
@@ -353,7 +353,7 @@ const jewellery = [
     category: "Women",
     price: 110.0,
     color: "Silver",
-    img: "https://example.com/images/womens_silver_ring_2.jpg",
+    img: "/public/images/3800.jpeg",
     details: "A delicate silver ring that adds charm.",
   },
   {
@@ -362,7 +362,7 @@ const jewellery = [
     category: "Men",
     price: 175.0,
     color: "Rose Gold",
-    img: "https://example.com/images/mens_rose_gold_chain_2.jpg",
+    img: "/public/images/3900.jpeg",
     details: "A modern rose gold chain that complements your style.",
   },
   {
@@ -371,7 +371,7 @@ const jewellery = [
     category: "Women",
     price: 160.0,
     color: "Gold",
-    img: "https://example.com/images/womens_gold_pendant.jpg",
+    img: "/public/images/4000.jpeg",
     details: "A stunning gold pendant that makes a statement.",
   },
   {
@@ -380,7 +380,7 @@ const jewellery = [
     category: "Men",
     price: 290.0,
     color: "Silver",
-    img: "https://example.com/images/mens_silver_watch_2.jpg",
+    img: "/public/images/4100.jpeg",
     details: "A stylish silver watch that complements your attire.",
   },
   {
