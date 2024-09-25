@@ -18,9 +18,10 @@ const jewellery = [
     category: "Men",
     price: 150.0,
     color: "Silver",
-    img: "/public/images/100.jpeg",
+    img: "",
     details: "A stylish silver chain that adds elegance to any outfit.",
   },
+
   {
     id: 2,
     name: "Women's Rose Gold Necklace",
