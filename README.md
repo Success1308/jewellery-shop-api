@@ -45,12 +45,15 @@ This API provides a collection of jewelry items categorized for both men and wom
 Example Item
 
         {
-          "id": 1,
-          "name": "Men's Gold Ring",
-          "category": "Men",
-          "price": 250.00,
-          "color": "Gold",
-          "img": "https://example.com/images/mens_gold_ring.jpg"
+            
+          id: 1,
+          name: "Men's Silver Chain",
+          category: "Men",
+          price: 150.0,
+          color: "Silver",
+          img: "https://github.com/Success1308/jewellery-shop-api/raw/main/public/images/100.jpeg",
+          details: "A stylish silver chain that adds elegance to any outfit.",
+  
         }
 
 Feel free to clone this repository and use the API in your own applications!
